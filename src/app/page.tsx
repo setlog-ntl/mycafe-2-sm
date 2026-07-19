@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <>
       <PresetSync />
-      <NavHeader />
+      <NavHeader config={siteConfig} />
       <main id="main">
         <HeroSection config={siteConfig} />
         <QuickActions config={siteConfig} />
@@ -36,7 +36,7 @@ export default function Home() {
         )}
         <SnsSection config={siteConfig} />
       </main>
-      <Footer />
+      <Footer config={siteConfig} />
     </>
   );
 }

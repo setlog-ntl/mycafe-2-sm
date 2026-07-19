@@ -207,7 +207,7 @@ function parseJSON<T>(raw: string | undefined, fallback: T): T {
 }
 
 export const siteConfig = {
-  name: process.env.NEXT_PUBLIC_SITE_NAME || '카페 라이츠',
+  name: process.env.NEXT_PUBLIC_SITE_NAME || '카페 라이츠2',
   nameEn: process.env.NEXT_PUBLIC_SITE_NAME_EN || 'Kafe Wrights',
   description: process.env.NEXT_PUBLIC_DESCRIPTION || '모던한 인테리어와 어우러진 감성 카페',
   descriptionEn: process.env.NEXT_PUBLIC_DESCRIPTION_EN || 'A cozy cafe with a modern interior',
